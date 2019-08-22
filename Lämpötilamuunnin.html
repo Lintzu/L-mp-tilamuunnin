@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <h1>Lämpötilamuunnin</h1> 
+</head>
+
+<body>
+
+    <div>
+        <input id="lämpötila1" type="text"/><span class="yksikkö">
+        <select id="y1">
+            <option value="Celsius">Celsius</option>
+            <option value="Fahrenheit">Fahrenheit</option>
+            <option value="Kelvin">Kelvin</option>
+
+         </select>
+         </span>
+         </div>
+
+         <button onclick="muunna()">Muunna</button>
+
+<p id="muunna"></p>
+
+         <div>
+             <input id="lämpötila2" type="text" disabled/>
+             <span class="yksikkö">
+            <select id="y2">
+                <option value="Celsius">Celsius</option>
+                <option value="Fahrenheit" selected= "selected">Fahrenheit</option>
+                <option value="Kelvin">Kelvin</option>
+
+         </select>
+         </span>
+         </div>
+    <script src="Java.js"></script>
+
+</body>
+</html>
